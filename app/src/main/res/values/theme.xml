@@ -1,0 +1,12 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat">
+
+        <!-- Color palette -->
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorPrimary">@color/gray</item>
+        <item name="colorAccent">@color/orange</item>
+
+        <!-- Window colors -->
+        <item name="android:windowBackground">@color/reddishGray</item>
+    </style>
+</resources>
