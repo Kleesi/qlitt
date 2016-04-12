@@ -3,8 +3,11 @@
 
         <!-- Color palette -->
         <item name="colorPrimaryDark">@color/black</item>
-        <item name="colorPrimary">@color/gray</item>
+        <item name="colorPrimary">@color/darkReddishGray</item>
         <item name="colorAccent">@color/orange</item>
+
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/gray</item>
 
         <!-- Window colors -->
         <item name="android:windowBackground">@color/reddishGray</item>
