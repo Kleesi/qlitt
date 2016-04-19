@@ -12,32 +12,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     >
 
-    <TextView
-        android:id="@+id/textView"
+    <fragment
+        class="com.kschenker.qlitt.fragments.NumberPadFragment"
+        android:id="@+id/fragment__number_pad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="bla"
+        android:layout_gravity="center"
+        tools:layout="@layout/fragment__number_pad"
         />
 
-    <RadioButton
-        android:id="@+id/radioButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New RadioButton"
-        />
-
-    <CheckBox
-        android:id="@+id/checkBox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New CheckBox"
-        />
-
-    <ToggleButton
-        android:id="@+id/toggleButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New ToggleButton"
-        />
 
 </LinearLayout>

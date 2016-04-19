@@ -1,3 +1,4 @@
 <resources>
-    <string name="App.Name">Quake Live Item Timing Trainer</string>
+    <string name="app.name">Quake Live Item Timing Trainer</string>
+
 </resources>

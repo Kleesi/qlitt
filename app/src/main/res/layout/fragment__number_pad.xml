@@ -1,0 +1,61 @@
+<GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alignmentMode="alignMargins"
+    android:columnCount="3"
+    android:rowCount="4"
+    android:orientation="horizontal"
+    android:useDefaultMargins="false"
+    tools:context=".fragments.NumberPadFragment"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <Button
+        android:text="@string/widget.button.number_pad_fragment__one"
+        />
+
+    <Button
+        android:text="@string/widget.button.number_pad_fragment__two"
+        />
+
+    <Button
+        android:text="@string/widget.button.number_pad_fragment__three"
+        />
+
+    <Button
+        android:text="@string/widget.button.number_pad_fragment__four"
+        />
+
+    <Button
+        android:text="@string/widget.button.number_pad_fragment__five"
+        />
+
+    <Button
+        android:text="@string/widget.button.number_pad_fragment__six"
+        />
+
+    <Button
+        android:text="@string/widget.button.number_pad_fragment__seven"
+        />
+
+    <Button
+        android:text="@string/widget.button.number_pad_fragment__eight"
+        />
+
+    <Button
+        android:text="@string/widget.button.number_pad_fragment__nine"
+        />
+
+    <Button
+        android:text="@string/widget.button.number_pad_fragment__clear"
+        />
+
+    <Button
+        android:text="@string/widget.button.number_pad_fragment__zero"
+        />
+
+    <Button
+        android:text="@string/widget.button.number_pad_fragment__submit"
+        />
+</GridLayout>
