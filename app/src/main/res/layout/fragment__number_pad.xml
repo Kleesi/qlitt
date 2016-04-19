@@ -3,8 +3,8 @@
     android:layout_height="match_parent"
     android:alignmentMode="alignMargins"
     android:columnCount="3"
-    android:rowCount="4"
     android:orientation="horizontal"
+    android:rowCount="4"
     android:useDefaultMargins="false"
     tools:context=".fragments.NumberPadFragment"
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -13,49 +13,72 @@
 
     <Button
         android:text="@string/widget.button.number_pad_fragment__one"
+        style="@style/button__number_pad_fragment__digit"
         />
 
     <Button
         android:text="@string/widget.button.number_pad_fragment__two"
+        style="@style/button__number_pad_fragment__digit"
+
         />
 
     <Button
         android:text="@string/widget.button.number_pad_fragment__three"
+        style="@style/button__number_pad_fragment__digit"
+
         />
 
     <Button
         android:text="@string/widget.button.number_pad_fragment__four"
+        style="@style/button__number_pad_fragment__digit"
+
         />
 
     <Button
         android:text="@string/widget.button.number_pad_fragment__five"
+        style="@style/button__number_pad_fragment__digit"
+
         />
 
     <Button
         android:text="@string/widget.button.number_pad_fragment__six"
+        style="@style/button__number_pad_fragment__digit"
+
         />
 
     <Button
         android:text="@string/widget.button.number_pad_fragment__seven"
+        style="@style/button__number_pad_fragment__digit"
+
         />
 
     <Button
         android:text="@string/widget.button.number_pad_fragment__eight"
+        style="@style/button__number_pad_fragment__digit"
+
         />
 
     <Button
         android:text="@string/widget.button.number_pad_fragment__nine"
+        style="@style/button__number_pad_fragment__digit"
+
         />
 
     <Button
         android:text="@string/widget.button.number_pad_fragment__clear"
+        style="@style/button__number_pad_fragment__clear"
+
         />
 
     <Button
         android:text="@string/widget.button.number_pad_fragment__zero"
+        style="@style/button__number_pad_fragment__digit"
+
         />
 
     <Button
         android:text="@string/widget.button.number_pad_fragment__submit"
+        style="@style/button__number_pad_fragment__submit"
+
         />
 </GridLayout>

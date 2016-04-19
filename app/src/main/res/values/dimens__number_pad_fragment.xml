@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin__number_pad_fragment__button">1dp</dimen>
+</resources>

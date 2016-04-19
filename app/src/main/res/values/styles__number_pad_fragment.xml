@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="button__number_pad_fragment__digit">
+        <item name="android:layout_margin">@dimen/margin__number_pad_fragment__button</item>
+        <item name="android:maxWidth">100dp</item>
+        <item name="android:maxHeight">50dp</item>
+        <item name="android:background">@drawable/drawable_selector__number_pad_fragment__button_background</item>
+        <item name="android:textColor">@color/color_selector__number_pad_fragment__digit_button_text_color</item>
+    </style>
+
+    <style name="button__number_pad_fragment__clear" parent="@style/button__number_pad_fragment__digit">
+        <item name="android:textColor">@color/color_selector__number_pad_fragment__clear_button_text_color</item>
+    </style>
+
+    <style name="button__number_pad_fragment__submit" parent="@style/button__number_pad_fragment__digit">
+        <item name="android:textColor">@color/color_selector__number_pad_fragment__submit_button_text_color</item>
+    </style>
+
+
+</resources>
