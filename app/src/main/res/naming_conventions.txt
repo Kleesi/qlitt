@@ -1,0 +1,33 @@
+Layout files:
+=============
+activity__<activity name>.xml
+fragment__<fragment name>.xml
+include__<description>.xml
+
+ex: fragment__number_pad.xml  -> NumberPadFragment
+
+View id's:
+==========
+<view-type>__<activity/fragment/include name>__<description>
+
+ex: button__number_pad__submit -> a Button view in the NumberPadFragment called submitButton
+
+String resources:
+=================
+- use package like naming
+- for widget texts use
+  widget.<view-type>.<activity/fragment name>__<description>
+
+
+ex: error.network.timeout -> general message to display, when a network timeout error occurs
+ex: widget.button.number_pad_fragment__submit -> label for submit button in the NumberPadFragment
+
+Color Resources:
+================
+colors.xml -> global color palette
+color_selector__<where it is used>__<description>.xml
+
+ex: color_selector__number_pad_fragment__digit_button_text_color
+
+
+
