@@ -7,6 +7,7 @@
         <item name="android:maxHeight">50dp</item>
         <item name="android:background">@drawable/drawable_selector__number_pad_fragment__button_background</item>
         <item name="android:textColor">@color/color_selector__number_pad_fragment__digit_button_text_color</item>
+        <item name="android:textSize">24sp</item>
     </style>
 
     <style name="button__number_pad_fragment__clear" parent="@style/button__number_pad_fragment__digit">

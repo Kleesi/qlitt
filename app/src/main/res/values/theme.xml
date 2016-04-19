@@ -1,5 +1,5 @@
 <resources>
-    <style name="AppTheme" parent="Theme.AppCompat">
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
 
         <!-- Color palette -->
         <item name="colorPrimaryDark">@color/black</item>
@@ -9,7 +9,8 @@
         <!-- Text colors -->
         <item name="android:textColorPrimary">@color/gray</item>
 
-        <!-- Window colors -->
+        <!-- Window -->
+        <item name="android:windowFullscreen">true</item>
         <item name="android:windowBackground">@color/reddishGray</item>
     </style>
 </resources>

@@ -16,10 +16,12 @@
     <color name="blue">#ff40aac0</color>
 
     <color name="green">#ff40bf40</color>
+    <color name="lightDullGreen">#f08ab693</color>
     <color name="dullGreen">#ff629e62</color>
 
     <color name="yellow">#ffbfbf41</color>
 
     <color name="red">#ffc04040</color>
+    <color name="lightDullRed">#ffd07070</color>
     <color name="dullRed">#ff9e6262</color>
 </resources>
