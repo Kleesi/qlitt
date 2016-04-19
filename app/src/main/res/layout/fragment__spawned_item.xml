@@ -1,0 +1,49 @@
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".fragments.SpawnedItemFragment"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <com.kschenker.views.DonutChartView
+        android:id="@+id/donut_chart_view__spawned_item_fragment__timer"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_gravity="center"
+        app:innerSpaceRatio="90%"
+        app:segmentSpacing="0"
+        app:startAngle="-90"
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/image_view__spawned_item_fragment__item_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="20dp"
+            android:src="@drawable/bitmap__red_armor"
+            />
+
+        <TextView
+            android:id="@+id/text_view__spawned_item_fragment__item_spawn_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="47"
+            android:textSize="50sp"
+            android:includeFontPadding="false"
+            />
+    </LinearLayout>
+
+
+</FrameLayout>

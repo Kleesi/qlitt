@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DonutChartView">
+        <attr name="innerSpaceRatio" format="fraction"/>
+        <attr name="segmentSpacing" format="float"/>
+        <attr name="startAngle" format="float"/>
+    </declare-styleable>
+</resources>

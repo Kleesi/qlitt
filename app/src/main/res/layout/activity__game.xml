@@ -13,11 +13,22 @@
     >
 
     <fragment
+        class="com.kschenker.qlitt.fragments.SpawnedItemFragment"
+        android:id="@+id/fragment__spawned_item"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment__spawned_item"
+        />
+
+
+    <fragment
         class="com.kschenker.qlitt.fragments.NumberPadFragment"
         android:id="@+id/fragment__number_pad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:layout_gravity="center_horizontal"
         tools:layout="@layout/fragment__number_pad"
         />
 
