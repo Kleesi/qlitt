@@ -1,4 +1,4 @@
-<FrameLayout
+<RelativeLayout
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     tools:context=".fragments.SpawnedItemFragment"
@@ -9,27 +9,24 @@
 
     <com.kschenker.views.DonutChartView
         android:id="@+id/donut_chart_view__spawned_item_fragment__timer"
-        android:layout_width="240dp"
-        android:layout_height="240dp"
-        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         app:innerSpaceRatio="90%"
         app:segmentSpacing="0"
         app:startAngle="-90"
         />
 
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:orientation="vertical"
-        >
+        android:layout_centerInParent="true">
 
         <ImageView
             android:id="@+id/image_view__spawned_item_fragment__item_image"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
             android:paddingTop="20dp"
             android:src="@drawable/bitmap__red_armor"
             />
@@ -38,12 +35,12 @@
             android:id="@+id/text_view__spawned_item_fragment__item_spawn_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="47"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/image_view__spawned_item_fragment__item_image"
+            android:text="XX:47"
             android:textSize="50sp"
             android:includeFontPadding="false"
             />
-    </LinearLayout>
+    </RelativeLayout>
 
-
-</FrameLayout>
+</RelativeLayout>
