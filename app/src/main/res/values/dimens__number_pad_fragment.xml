@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="margin__number_pad_fragment__button">1dp</dimen>
+    <dimen name="height__number_pad_fragment__button">35dp</dimen>
+    <dimen name="width__number_pad_fragment__button">100dp</dimen>
+    <dimen name="text_size__number_pad_fragment__button">20sp</dimen>
 </resources>
