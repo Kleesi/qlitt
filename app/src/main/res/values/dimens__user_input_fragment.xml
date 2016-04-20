@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size__user_input_fragment__prompt">20sp</dimen>
+</resources>

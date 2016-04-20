@@ -17,10 +17,23 @@
         android:id="@+id/fragment__spawned_item"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/fragment__number_pad"
+        android:layout_above="@+id/fragment__user_input"
         tools:layout="@layout/fragment__spawned_item"
         />
 
+    <fragment
+        class="com.kschenker.qlitt.fragments.UserInputFragment"
+        android:id="@id/fragment__user_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fragment__number_pad"
+        android:layout_alignStart="@id/fragment__number_pad"
+        android:layout_alignLeft="@id/fragment__number_pad"
+        android:layout_alignRight="@id/fragment__number_pad"
+        android:layout_alignEnd="@id/fragment__number_pad"
+        android:layout_marginBottom="3dp"
+        tools:layout="@layout/fragment__user_input"
+        />
 
     <fragment
         class="com.kschenker.qlitt.fragments.NumberPadFragment"
