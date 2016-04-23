@@ -23,7 +23,7 @@
         android:layout_centerVertical="true"
         android:layout_marginRight="@dimen/margin_right__accuracy_fragment__accuracy"
         android:layout_marginEnd="@dimen/margin_right__accuracy_fragment__accuracy"
-        android:text="55.12%"
+        android:text="55.12"
         style="@style/text_view__accuracy_fragment__accuracy"
         />
 

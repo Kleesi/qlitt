@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="text_view__accuracy_fragment__accuracy">
+    <style name="text_view__timer_fragment__timer">
         <item name="android:textColor">@color/gray</item>
         <item name="android:typeface">monospace</item>
-        <item name="android:textSize">@dimen/text_size__accuracy_fragment__accuracy</item>
+        <item name="android:textSize">@dimen/text_size__timer_fragment__timer</item>
     </style>
 </resources>

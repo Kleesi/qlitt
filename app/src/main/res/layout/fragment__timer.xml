@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".fragments.TimerFragment"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <ImageView
+        android:id="@+id/image_view__timer_fragment__symbol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/text_view__timer_fragment__timer"
+        android:layout_toEndOf="@id/text_view__timer_fragment__timer"
+        android:src="@drawable/bitmap__timer_small"
+        />
+
+    <TextView
+        android:id="@id/text_view__timer_fragment__timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/margin_right__timer_fragment__timer"
+        android:layout_marginEnd="@dimen/margin_right__timer_fragment__timer"
+        android:text="02:57"
+        style="@style/text_view__timer_fragment__timer"
+        />
+
+</RelativeLayout>
