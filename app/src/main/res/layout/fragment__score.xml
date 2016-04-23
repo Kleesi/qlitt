@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".fragments.ScoreFragment"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <ImageView
+        android:id="@+id/image_view__score_fragment__symbol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/skull_blue"
+        />
+
+    <TextView
+        android:id="@+id/text_view__score_fragment__score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/image_view__score_fragment__symbol"
+        android:layout_toEndOf="@id/image_view__score_fragment__symbol"
+        android:layout_centerVertical="true"
+        android:text="001280"
+        style="@style/text_view__score_fragment__score"
+        />
+
+</RelativeLayout>

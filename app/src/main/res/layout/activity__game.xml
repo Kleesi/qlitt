@@ -13,11 +13,20 @@
     >
 
     <fragment
+        class="com.kschenker.qlitt.fragments.ScoreFragment"
+        android:id="@+id/fragment__score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment__score"
+        />
+
+    <fragment
         class="com.kschenker.qlitt.fragments.SpawnedItemFragment"
         android:id="@+id/fragment__spawned_item"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/fragment__user_input"
+        android:layout_below="@id/fragment__score"
         tools:layout="@layout/fragment__spawned_item"
         />
 

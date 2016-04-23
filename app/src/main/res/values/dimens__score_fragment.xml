@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size__score_fragment__score">20sp</dimen>
+</resources>

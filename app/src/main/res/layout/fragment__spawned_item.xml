@@ -38,7 +38,7 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_below="@id/image_view__spawned_item_fragment__item_image"
-            android:text="XX:47"
+            android:text="47"
             android:textSize="50sp"
             android:includeFontPadding="false"
             />
