@@ -21,6 +21,16 @@
         />
 
     <fragment
+        class="com.kschenker.qlitt.fragments.AccuracyFragment"
+        android:id="@+id/fragment__accuracy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        tools:layout="@layout/fragment__accuracy"
+        />
+
+    <fragment
         class="com.kschenker.qlitt.fragments.SpawnedItemFragment"
         android:id="@+id/fragment__spawned_item"
         android:layout_width="match_parent"
