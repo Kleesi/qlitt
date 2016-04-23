@@ -21,6 +21,8 @@
         android:layout_toRightOf="@id/image_view__score_fragment__symbol"
         android:layout_toEndOf="@id/image_view__score_fragment__symbol"
         android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin_left__score_fragment__score"
+        android:layout_marginStart="@dimen/margin_left__score_fragment__score"
         android:text="001280"
         style="@style/text_view__score_fragment__score"
         />

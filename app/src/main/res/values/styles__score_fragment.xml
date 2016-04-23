@@ -3,6 +3,7 @@
 
     <style name="text_view__score_fragment__score">
         <item name="android:textColor">@color/blue</item>
+        <item name="android:typeface">monospace</item>
         <item name="android:textSize">@dimen/text_size__score_fragment__score</item>
         <item name="android:textStyle">normal</item>
     </style>
