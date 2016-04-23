@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="widget.textview.user_input_fragment__prompt">Enter the respawn time</string>
+    <string name="widget.text_view.user_input_fragment__prompt">Enter the respawn time</string>
 </resources>

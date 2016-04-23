@@ -1,3 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="text_view__user_input_fragment__prompt">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">@dimen/text_size__user_input_fragment__prompt</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="view__user_input_fragment__horizontal_divider">
+        <item name="android:background">@color/transparent_gray</item>
+    </style>
 </resources>

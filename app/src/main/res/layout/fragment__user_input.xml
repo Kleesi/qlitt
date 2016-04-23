@@ -11,19 +11,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="@string/widget.textview.user_input_fragment__prompt"
+        android:text="@string/widget.text_view.user_input_fragment__prompt"
+        style="@style/text_view__user_input_fragment__prompt"
 
-        android:textSize="@dimen/text_size__user_input_fragment__prompt"
-        android:textStyle="italic"
         />
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_below="@id/text_view__user_input_fragment__prompt"
-        android:background="#80ffffff"
+        style="@style/view__user_input_fragment__horizontal_divider"
         />
-
 
 
 </RelativeLayout>
