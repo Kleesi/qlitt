@@ -35,17 +35,33 @@ public class DonutChartView extends View
     private Paint segmentFillPaint;
     private Paint segmentStrokePaint;
 
-    // ---- CONSTRUCTORS ----
+    private static ArrayList<Segment> previewSegments;
+
+    //region ---- STATIC INITIALIZATION ----
+    static
+    {
+        createPreviewSegments();
+    }
+
+    private static void createPreviewSegments()
+    {
+        previewSegments = new ArrayList<>();
+        previewSegments.add(new Segment(0.2f, Color.CYAN, Color.BLACK));
+        previewSegments.add(new Segment(0.5f, Color.MAGENTA, Color.BLACK));
+        previewSegments.add(new Segment(0.3f, Color.YELLOW, Color.BLACK));
+    }
+
+    //endregion
+
+    //region ---- CONSTRUCTORS ----
     public DonutChartView(Context context)
     {
-        super(context);
-        setPropertiesFromXmlAttributes(context, null, 0);
+        this(context, null, 0);
     }
 
     public DonutChartView(Context context, AttributeSet xmlAttributes)
     {
-        super(context, xmlAttributes);
-        setPropertiesFromXmlAttributes(context, xmlAttributes, 0);
+        this(context, xmlAttributes, 0);
     }
 
     public DonutChartView(Context context, AttributeSet xmlAttributes, int defaultStyleAttributeID)
@@ -54,7 +70,9 @@ public class DonutChartView extends View
         setPropertiesFromXmlAttributes(context, xmlAttributes, defaultStyleAttributeID);
     }
 
-    // ---- GETTERS AND SETTERS ----
+    //endregion
+
+    //region ---- GETTERS AND SETTERS ----
     public float getInnerSpaceRatio()
     {
         return innerSpaceRatio;
@@ -155,7 +173,9 @@ public class DonutChartView extends View
         return segmentStrokePaint;
     }
 
-    // ---- MISCELLANEOUS ----
+    //endregion
+
+    //region ---- MISCELLANEOUS ----
     @Override
     protected void onSizeChanged(int width, int height, int oldWidth, int oldHeight)
     {
@@ -206,7 +226,9 @@ public class DonutChartView extends View
         offscreenCanvas = new Canvas(offscreenBitmap);
     }
 
-    // ---- DRAWING ----
+    //endregion
+
+    //region ---- DRAWING ----
     @Override
     protected void onDraw(Canvas viewCanvas)
     {
@@ -227,7 +249,7 @@ public class DonutChartView extends View
 
     private void drawSegments(Canvas canvas)
     {
-        List<Segment> allSegments = getSegments();
+        List<Segment> allSegments = getSegments().size() > 0 ? getSegments() : previewSegments;
         float remainingSpace = 360f - allSegments.size() * getSegmentSpacing();
         float angle = getStartAngle();
 
@@ -319,4 +341,6 @@ public class DonutChartView extends View
             this.strokeColor = strokeColor;
         }
     }
+
+    //endregion
 }
