@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="size__spawned_item_fragment__timer">250dp</dimen>
+    <dimen name="size__spawned_item_fragment__time_ring">250dp</dimen>
+    <dimen name="text_size__spawned_item_fragment__spawn_time">50sp</dimen>
+    <dimen name="margin_left__spawned_item_fragment__spawn_time">4dp</dimen>
 </resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="text_view__spawned_item_fragment__spawn_time">
+        <item name="android:textSize">@dimen/text_size__spawned_item_fragment__spawn_time</item>
+        <item name="android:textColor">@color/lightGray</item>
+    </style>
+</resources>

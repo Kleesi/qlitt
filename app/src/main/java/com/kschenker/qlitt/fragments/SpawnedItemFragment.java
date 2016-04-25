@@ -29,9 +29,12 @@ public class SpawnedItemFragment extends Fragment
     {
         super.onActivityCreated(savedInstanceState);
 
-        DonutChartView donutChart = (DonutChartView)getActivity().findViewById(R.id.donut_chart_view__spawned_item_fragment__timer);
-        donutChart.addSegment(new DonutChartView.Segment(0.4f, getResources().getColor(R.color.lightReddishGray), Color.BLACK));
-        donutChart.addSegment(new DonutChartView.Segment(0.6f, getResources().getColor(R.color.extraLightReddishGray), Color.BLACK));
+        DonutChartView donutChart = (DonutChartView)getActivity().findViewById(R.id.donut_chart_view__spawned_item_fragment__time_ring);
+        if (donutChart != null)
+        {
+            donutChart.addSegment(new DonutChartView.Segment(0.4f, getResources().getColor(R.color.lightReddishGray), Color.BLACK));
+            donutChart.addSegment(new DonutChartView.Segment(0.6f, getResources().getColor(R.color.extraLightReddishGray), Color.BLACK));
+        }
     }
 
     @Override
