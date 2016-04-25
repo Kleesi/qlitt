@@ -10,16 +10,23 @@
         android:id="@+id/text_view__user_input_fragment__prompt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
+        android:paddingLeft="16dp"
+        android:paddingStart="16dp"
+        android:paddingRight="16dp"
+        android:paddingEnd="16dp"
         android:text="@string/widget.text_view.user_input_fragment__prompt"
         style="@style/text_view__user_input_fragment__prompt"
 
         />
 
     <View
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="1dp"
         android:layout_below="@id/text_view__user_input_fragment__prompt"
+        android:layout_alignLeft="@id/text_view__user_input_fragment__prompt"
+        android:layout_alignStart="@id/text_view__user_input_fragment__prompt"
+        android:layout_alignRight="@id/text_view__user_input_fragment__prompt"
+        android:layout_alignEnd="@id/text_view__user_input_fragment__prompt"
         style="@style/view__user_input_fragment__horizontal_divider"
         />
 

@@ -12,72 +12,55 @@
     >
 
     <fragment
-        class="com.kschenker.qlitt.fragments.ScoreFragment"
         android:id="@+id/fragment__score"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        class="com.kschenker.qlitt.fragments.ScoreFragment"
         tools:layout="@layout/fragment__score"
         />
 
     <fragment
-        class="com.kschenker.qlitt.fragments.AccuracyFragment"
         android:id="@+id/fragment__accuracy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_marginBottom="4dp"
+        class="com.kschenker.qlitt.fragments.AccuracyFragment"
         tools:layout="@layout/fragment__accuracy"
         />
 
     <fragment
-        class="com.kschenker.qlitt.fragments.TimerFragment"
         android:id="@+id/fragment__timer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_below="@id/fragment__accuracy"
+        class="com.kschenker.qlitt.fragments.TimerFragment"
         tools:layout="@layout/fragment__timer"
         />
 
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_above="@+id/fragment__user_input"
-        android:layout_below="@id/fragment__score">
-
-        <fragment
-            class="com.kschenker.qlitt.fragments.SpawnedItemFragment"
-            android:id="@+id/fragment__spawned_item"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            tools:layout="@layout/fragment__spawned_item"
-            />
-    </FrameLayout>
-
-
     <fragment
-        class="com.kschenker.qlitt.fragments.UserInputFragment"
-        android:id="@id/fragment__user_input"
+        android:id="@+id/fragment__spawned_item"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/fragment__number_pad"
+        android:layout_above="@+id/fragment__user_input"
+        android:layout_below="@id/fragment__score"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="3dp"
-        tools:layout="@layout/fragment__user_input"
+        class="com.kschenker.qlitt.fragments.SpawnedItemFragment"
+        tools:layout="@layout/fragment__spawned_item"
         />
 
     <fragment
-        class="com.kschenker.qlitt.fragments.NumberPadFragment"
-        android:id="@id/fragment__number_pad"
+        android:id="@id/fragment__user_input"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        tools:layout="@layout/fragment__number_pad"
+        android:layout_marginBottom="3dp"
+        class="com.kschenker.qlitt.fragments.UserInputFragment"
+        tools:layout="@layout/fragment__user_input"
         />
-
 
 </RelativeLayout>
