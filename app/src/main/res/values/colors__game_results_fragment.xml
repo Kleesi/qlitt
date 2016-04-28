@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text__game_results_fragment__close_integer">@color/orange</color>
+    <color name="text__game_results_fragment__correct_integer">@color/dullGreen</color>
+    <color name="text__game_results_fragment__wrong_integer">@color/lightDullRed</color>
+</resources>

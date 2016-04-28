@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="text_view__game_results_fragment_label">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">@dimen/text_size__game_results_fragment__label</item>
+    </style>
+
+    <style name="text_view__game_results_fragment_percentage">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">@dimen/text_size__game_results_fragment__percentage</item>
+    </style>
+</resources>
