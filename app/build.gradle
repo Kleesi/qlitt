@@ -4,6 +4,13 @@ android {
     compileSdkVersion 23
     buildToolsVersion "23.0.2"
 
+    dexOptions {
+        incremental true
+        dexInProcess true
+        maxProcessCount 4
+        javaMaxHeapSize "2g"
+    }
+
     defaultConfig {
         applicationId "com.kschenker.qlitt"
         minSdkVersion 15
