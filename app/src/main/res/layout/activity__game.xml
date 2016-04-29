@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.kschenker.qlitt.activities.GameActivity"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/margin_vertical__general__activity"
+    android:paddingLeft="@dimen/margin_horizontal__general__activity"
+    android:paddingRight="@dimen/margin_horizontal__general__activity"
+    android:paddingTop="@dimen/margin_vertical__general__activity"
+    tools:context="com.kschenker.qlitt.activities.GameActivity"
     >
 
     <fragment
@@ -24,8 +24,8 @@
         android:id="@+id/fragment__accuracy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_marginBottom="4dp"
         tools:layout="@layout/fragment__accuracy"
         />
@@ -35,8 +35,8 @@
         android:id="@+id/fragment__timer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_below="@id/fragment__accuracy"
         tools:layout="@layout/fragment__timer"
         />
@@ -45,7 +45,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/fragment__user_input"
-        android:layout_below="@id/fragment__score">
+        android:layout_below="@id/fragment__score"
+        >
 
         <fragment
             class="com.kschenker.qlitt.fragments.SpawnedItemFragment"
