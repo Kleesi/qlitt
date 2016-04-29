@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/margin_vertical__general__activity"
+    android:paddingLeft="@dimen/margin_horizontal__general__activity"
+    android:paddingRight="@dimen/margin_horizontal__general__activity"
+    android:paddingTop="@dimen/margin_vertical__general__activity"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Round Results"
+        style="@style/text_view__general__header"
+        />
+</RelativeLayout>
