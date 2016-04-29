@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget.button.right_number_pad_fragment__five">@string/widget.button.number_pad_fragment__five</string>
+    <string name="widget.button.right_number_pad_fragment__six">@string/widget.button.number_pad_fragment__six</string>
+    <string name="widget.button.right_number_pad_fragment__seven">@string/widget.button.number_pad_fragment__seven</string>
+    <string name="widget.button.right_number_pad_fragment__eight">@string/widget.button.number_pad_fragment__eight</string>
+    <string name="widget.button.right_number_pad_fragment__nine">@string/widget.button.number_pad_fragment__nine</string>
+    <string name="widget.button.right_number_pad_fragment__submit">@string/widget.button.number_pad_fragment__submit</string>
+</resources>

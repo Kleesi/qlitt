@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:text="@string/widget.button.left_number_pad_fragment__zero"
+        style="@style/button__left_number_pad_fragment__digit"
+        />
+
+    <Button
+        android:text="@string/widget.button.left_number_pad_fragment__one"
+        style="@style/button__left_number_pad_fragment__digit"
+        />
+
+    <Button
+        android:text="@string/widget.button.left_number_pad_fragment__two"
+        style="@style/button__left_number_pad_fragment__digit"
+        />
+
+    <Button
+        android:text="@string/widget.button.left_number_pad_fragment__three"
+        style="@style/button__left_number_pad_fragment__digit"
+        />
+
+    <Button
+        android:text="@string/widget.button.left_number_pad_fragment__four"
+        style="@style/button__left_number_pad_fragment__digit"
+        />
+
+    <Button
+        android:layout_marginTop="@dimen/margin_top__left_number_pad_fragment__clear_button"
+        android:text="@string/widget.button.left_number_pad_fragment__clear"
+        style="@style/button__left_number_pad_fragment__clear"
+        />
+
+</GridLayout>

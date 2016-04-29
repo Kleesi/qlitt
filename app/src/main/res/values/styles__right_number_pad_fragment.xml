@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="button__right_number_pad_fragment__digit" parent="@style/button__number_pad_fragment__digit">
+        <item name="android:layout_height">@dimen/height__right_number_pad_fragment__button</item>
+        <item name="android:layout_width">@dimen/width__right_number_pad_fragment__button</item>
+    </style>
+
+    <style name="button__right_number_pad_fragment__submit" parent="@style/button__number_pad_fragment__submit">
+        <item name="android:layout_height">@dimen/height__right_number_pad_fragment__button</item>
+        <item name="android:layout_width">@dimen/width__right_number_pad_fragment__button</item>
+    </style>
+</resources>
