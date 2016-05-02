@@ -7,33 +7,33 @@
     >
 
     <Button
-        android:text="@string/widget.button.left_number_pad_fragment__zero"
+        android:text="@string/widget__button__left_number_pad_fragment__zero"
         style="@style/button__left_number_pad_fragment__digit"
         />
 
     <Button
-        android:text="@string/widget.button.left_number_pad_fragment__one"
+        android:text="@string/widget__button__left_number_pad_fragment__one"
         style="@style/button__left_number_pad_fragment__digit"
         />
 
     <Button
-        android:text="@string/widget.button.left_number_pad_fragment__two"
+        android:text="@string/widget__button__left_number_pad_fragment__two"
         style="@style/button__left_number_pad_fragment__digit"
         />
 
     <Button
-        android:text="@string/widget.button.left_number_pad_fragment__three"
+        android:text="@string/widget__button__left_number_pad_fragment__three"
         style="@style/button__left_number_pad_fragment__digit"
         />
 
     <Button
-        android:text="@string/widget.button.left_number_pad_fragment__four"
+        android:text="@string/widget__button__left_number_pad_fragment__four"
         style="@style/button__left_number_pad_fragment__digit"
         />
 
     <Button
         android:layout_marginTop="@dimen/margin_top__left_number_pad_fragment__clear_button"
-        android:text="@string/widget.button.left_number_pad_fragment__clear"
+        android:text="@string/widget__button__left_number_pad_fragment__clear"
         style="@style/button__left_number_pad_fragment__clear"
         />
 

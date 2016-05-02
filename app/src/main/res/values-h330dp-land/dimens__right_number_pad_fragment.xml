@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="margin_top__right_number_pad_fragment__submit_button">16dp</dimen>
-    <dimen name="height__right_number_pad_fragment__button">40dp</dimen>
-    <dimen name="width__right_number_pad_fragment__button">80dp</dimen>
+    <dimen name="margin_top__right_number_pad_fragment__submit_button">@dimen/spacing_large__global</dimen>
+    <dimen name="size__right_number_pad_fragment__button_height">@dimen/button_height_small__global</dimen>
+    <dimen name="size__right_number_pad_fragment__button_width">@dimen/button_width_small__global</dimen>
 </resources>

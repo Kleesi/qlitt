@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spacing_tiny__global">4dp</dimen>
+    <dimen name="spacing_small__global">8dp</dimen>
+    <dimen name="spacing_medium__global">12dp</dimen>
+    <dimen name="spacing_large__global">16dp</dimen>
+
+    <dimen name="text_size_tiny__global">14sp</dimen>
+    <dimen name="text_size_small__global">16sp</dimen>
+    <dimen name="text_size_medium__global">18sp</dimen>
+    <dimen name="text_size_large__global">20sp</dimen>
+    <dimen name="text_size_extra_large__global">22sp</dimen>
+    <dimen name="text_size_huge__global">42sp</dimen>
+
+    <dimen name="button_width_tiny__global">70dp</dimen>
+    <dimen name="button_width_small__global">80dp</dimen>
+    <dimen name="button_width_medium__global">100dp</dimen>
+    <dimen name="button_width_large__global">120dp</dimen>
+    <dimen name="button_height_tiny__global">35dp</dimen>
+    <dimen name="button_height_small__global">40dp</dimen>
+    <dimen name="button_height_medium__global">50dp</dimen>
+    <dimen name="button_height_large__global">60dp</dimen>
+
+    <dimen name="margin_horizontal__global__activity">@dimen/spacing_tiny__global</dimen>
+    <dimen name="margin_vertical__global__activity">@dimen/spacing_tiny__global</dimen>
+    <dimen name="padding__global__header">@dimen/spacing_small__global</dimen>
+    <dimen name="padding__global__header_drawable">@dimen/spacing_small__global</dimen>
+    <dimen name="text_size__global__header_label">@dimen/text_size_extra_large__global</dimen>
+</resources>

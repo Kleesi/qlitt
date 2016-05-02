@@ -1,3 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="widget__text_view__game_results_fragment__correct_label">Correct</string>
+    <string name="widget__text_view__game_results_fragment__close_label">Close</string>
+    <string name="widget__text_view__game_results_fragment__wrong_label">Wrong</string>
 </resources>

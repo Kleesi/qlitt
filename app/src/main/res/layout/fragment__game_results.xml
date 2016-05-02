@@ -1,138 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android"
     >
 
-    <RelativeLayout
-        android:id="@+id/layout__game_results_fragment__correct"
-        android:layout_width="wrap_content"
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/layout__game_results_fragment__distribution"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:columnCount="3"
+        app:useDefaultMargins="false"
         >
 
         <TextView
             android:id="@+id/text_view__game_results_fragment__correct_label"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:text="Correct"
+            android:text="@string/widget__text_view__game_results_fragment__correct_label"
+            app:layout_columnWeight="1"
+            app:layout_gravity="center"
+            style="@style/text_view__game_results_fragment_label"
+            />
+
+        <TextView
+            android:id="@+id/text_view__game_results_fragment__close_label"
+            android:text="@string/widget__text_view__game_results_fragment__close_label"
+            app:layout_columnWeight="1"
+            app:layout_gravity="center"
+            style="@style/text_view__game_results_fragment_label"
+            />
+
+        <TextView
+            android:id="@+id/text_view__game_results_fragment__wrong_label"
+            android:text="@string/widget__text_view__game_results_fragment__wrong_label"
+            app:layout_columnWeight="1"
+            app:layout_gravity="center"
             style="@style/text_view__game_results_fragment_label"
             />
 
         <TextView
             android:id="@+id/text_view__game_results_fragment__correct_integer"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/text_view__game_results_fragment__correct_label"
-            android:layout_centerHorizontal="true"
             android:layout_marginBottom="@dimen/margin_bottom__game_results_fragment__integer"
             android:layout_marginTop="@dimen/margin_top__game_results_fragment__integer"
             android:text="60"
             android:textColor="@color/text__game_results_fragment__correct_integer"
-            android:textSize="@dimen/text_size__game_results_fragment__integer"
-            />
-
-        <TextView
-            android:id="@+id/text_view__game_results_fragment__correct_percentage"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/text_view__game_results_fragment__correct_integer"
-            android:layout_centerHorizontal="true"
-            android:text="60,00%"
-            style="@style/text_view__game_results_fragment_percentage"
-            />
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:id="@+id/layout__game_results_fragment__close"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/margin_left__game_results_fragment__layout"
-        android:layout_marginStart="@dimen/margin_left__game_results_fragment__layout"
-        android:layout_toEndOf="@id/layout__game_results_fragment__correct"
-        android:layout_toRightOf="@id/layout__game_results_fragment__correct"
-        >
-
-        <TextView
-            android:id="@+id/text_view__game_results_fragment__close_label"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:text="Close"
-            android:textColor="@color/gray"
-            android:textSize="@dimen/text_size__game_results_fragment__label"
-            style="@style/text_view__game_results_fragment_label"
+            app:layout_gravity="center"
+            style="@style/text_view__game_results_fragment_integer"
             />
 
         <TextView
             android:id="@+id/text_view__game_results_fragment__close_integer"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/text_view__game_results_fragment__close_label"
-            android:layout_centerHorizontal="true"
             android:layout_marginBottom="@dimen/margin_bottom__game_results_fragment__integer"
             android:layout_marginTop="@dimen/margin_top__game_results_fragment__integer"
             android:text="30"
             android:textColor="@color/text__game_results_fragment__close_integer"
-            android:textSize="@dimen/text_size__game_results_fragment__integer"
-            />
-
-        <TextView
-            android:id="@+id/text_view__game_results_fragment__close_percentage"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/text_view__game_results_fragment__close_integer"
-            android:layout_centerHorizontal="true"
-            android:text="30,00%"
-            style="@style/text_view__game_results_fragment_percentage"
-            />
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:id="@+id/layout__game_results_fragment__wrong"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/margin_left__game_results_fragment__layout"
-        android:layout_marginStart="@dimen/margin_left__game_results_fragment__layout"
-        android:layout_toEndOf="@id/layout__game_results_fragment__close"
-        android:layout_toRightOf="@id/layout__game_results_fragment__close"
-        >
-
-        <TextView
-            android:id="@+id/text_view__game_results_fragment__wrong_label"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:text="Wrong"
-            android:textColor="@color/gray"
-            android:textSize="@dimen/text_size__game_results_fragment__label"
-            style="@style/text_view__game_results_fragment_label"
+            app:layout_gravity="center"
+            style="@style/text_view__game_results_fragment_integer"
             />
 
         <TextView
             android:id="@+id/text_view__game_results_fragment__wrong_integer"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/text_view__game_results_fragment__wrong_label"
-            android:layout_centerHorizontal="true"
             android:layout_marginBottom="@dimen/margin_bottom__game_results_fragment__integer"
             android:layout_marginTop="@dimen/margin_top__game_results_fragment__integer"
             android:text="10"
             android:textColor="@color/text__game_results_fragment__wrong_integer"
-            android:textSize="@dimen/text_size__game_results_fragment__integer"
+            app:layout_gravity="center"
+            style="@style/text_view__game_results_fragment_integer"
+            />
+
+        <TextView
+            android:id="@+id/text_view__game_results_fragment__correct_percentage"
+            android:text="60,00%"
+            app:layout_gravity="center"
+            style="@style/text_view__game_results_fragment_percentage"
+            />
+
+        <TextView
+            android:id="@+id/text_view__game_results_fragment__close_percentage"
+            android:text="30,00%"
+            app:layout_gravity="center"
+            style="@style/text_view__game_results_fragment_percentage"
             />
 
         <TextView
             android:id="@+id/text_view__game_results_fragment__wrong_percentage"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/text_view__game_results_fragment__wrong_integer"
-            android:layout_centerHorizontal="true"
             android:text="10,00%"
+            app:layout_gravity="center"
             style="@style/text_view__game_results_fragment_percentage"
             />
-    </RelativeLayout>
+
+    </android.support.v7.widget.GridLayout>
 
 
 </RelativeLayout>

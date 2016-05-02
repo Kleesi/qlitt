@@ -6,7 +6,7 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/icon__launcher"
-        android:label="@string/app.name"
+        android:label="@string/app__name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         >
@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".activities.GameStatisticsActivity">
+        <activity android:name=".activities.GameResultsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 

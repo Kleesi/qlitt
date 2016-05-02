@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="margin_top__left_number_pad_fragment__clear_button">16dp</dimen>
-    <dimen name="height__left_number_pad_fragment__button">50dp</dimen>
-    <dimen name="width__left_number_pad_fragment__button">100dp</dimen>
+    <dimen name="margin_top__left_number_pad_fragment__clear_button">@dimen/spacing_large__global</dimen>
+    <dimen name="size__left_number_pad_fragment__button_height">@dimen/button_height_medium__global</dimen>
+    <dimen name="size__left_number_pad_fragment__button_width">@dimen/button_width_medium__global</dimen>
 </resources>

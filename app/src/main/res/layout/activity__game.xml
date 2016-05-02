@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/margin_vertical__general__activity"
-    android:paddingLeft="@dimen/margin_horizontal__general__activity"
-    android:paddingRight="@dimen/margin_horizontal__general__activity"
-    android:paddingTop="@dimen/margin_vertical__general__activity"
+    android:paddingBottom="@dimen/margin_vertical__global__activity"
+    android:paddingLeft="@dimen/margin_horizontal__global__activity"
+    android:paddingRight="@dimen/margin_horizontal__global__activity"
+    android:paddingTop="@dimen/margin_vertical__global__activity"
     tools:context="com.kschenker.qlitt.activities.GameActivity"
     >
 

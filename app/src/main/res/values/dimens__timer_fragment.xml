@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="text_size__timer_fragment__timer">16sp</dimen>
-    <dimen name="margin_right__timer_fragment__timer">4dp</dimen>
+    <dimen name="text_size__timer_fragment__timer">@dimen/text_size_tiny__global</dimen>
+    <dimen name="margin_right__timer_fragment__timer">@dimen/spacing_tiny__global</dimen>
 </resources>

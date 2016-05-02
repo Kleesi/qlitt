@@ -2,12 +2,12 @@
 <resources>
 
     <style name="button__right_number_pad_fragment__digit" parent="@style/button__number_pad_fragment__digit">
-        <item name="android:layout_height">@dimen/height__right_number_pad_fragment__button</item>
-        <item name="android:layout_width">@dimen/width__right_number_pad_fragment__button</item>
+        <item name="android:layout_height">@dimen/size__right_number_pad_fragment__button_height</item>
+        <item name="android:layout_width">@dimen/size__right_number_pad_fragment__button_width</item>
     </style>
 
     <style name="button__right_number_pad_fragment__submit" parent="@style/button__number_pad_fragment__submit">
-        <item name="android:layout_height">@dimen/height__right_number_pad_fragment__button</item>
-        <item name="android:layout_width">@dimen/width__right_number_pad_fragment__button</item>
+        <item name="android:layout_height">@dimen/size__right_number_pad_fragment__button_height</item>
+        <item name="android:layout_width">@dimen/size__right_number_pad_fragment__button_width</item>
     </style>
 </resources>

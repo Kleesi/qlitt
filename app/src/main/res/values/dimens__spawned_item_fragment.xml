@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="size__spawned_item_fragment__time_ring">210dp</dimen>
-    <dimen name="text_size__spawned_item_fragment__spawn_time">40sp</dimen>
-    <dimen name="margin_left__spawned_item_fragment__spawn_time">4dp</dimen>
+    <dimen name="text_size__spawned_item_fragment__spawn_time">@dimen/text_size_huge__global</dimen>
+    <dimen name="margin_left__spawned_item_fragment__spawn_time">@dimen/spacing_small__global</dimen>
 </resources>

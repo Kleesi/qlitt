@@ -2,7 +2,7 @@
           xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application android:allowBackup="true"
-                 android:label="@string/app.name"
+                 android:label="@string/app__name"
                  android:supportsRtl="true"
     >
 

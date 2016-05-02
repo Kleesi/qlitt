@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/margin_vertical__global__activity"
+    android:paddingLeft="@dimen/margin_horizontal__global__activity"
+    android:paddingRight="@dimen/margin_horizontal__global__activity"
+    android:paddingTop="@dimen/margin_vertical__global__activity"
+    >
+
+    <TextView
+        android:id="@+id/text_view__game_results__header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/widget__text_view__game_results_activity__header_label"
+        style="@style/text_view__global__header"
+        />
+
+
+
+    <fragment
+        class="com.kschenker.qlitt.fragments.RoundResultsFragment"
+        android:id="@+id/fragment__game_results"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/spacing_large__global"
+        tools:layout="@layout/fragment__game_results"
+        />
+
+
+</RelativeLayout>

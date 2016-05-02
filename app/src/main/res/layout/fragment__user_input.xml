@@ -14,7 +14,7 @@
         android:paddingStart="16dp"
         android:paddingRight="16dp"
         android:paddingEnd="16dp"
-        android:text="@string/widget.text_view.user_input_fragment__prompt"
+        android:text="@string/widget__text_view__user_input_fragment__prompt"
         style="@style/text_view__user_input_fragment__prompt"
 
         />

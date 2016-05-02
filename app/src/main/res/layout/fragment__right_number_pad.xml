@@ -7,33 +7,33 @@
     >
 
     <Button
-        android:text="@string/widget.button.right_number_pad_fragment__five"
+        android:text="@string/widget__button__right_number_pad_fragment__five"
         style="@style/button__right_number_pad_fragment__digit"
         />
 
     <Button
-        android:text="@string/widget.button.right_number_pad_fragment__six"
+        android:text="@string/widget__button__right_number_pad_fragment__six"
         style="@style/button__right_number_pad_fragment__digit"
         />
 
     <Button
-        android:text="@string/widget.button.right_number_pad_fragment__seven"
+        android:text="@string/widget__button__right_number_pad_fragment__seven"
         style="@style/button__right_number_pad_fragment__digit"
         />
 
     <Button
-        android:text="@string/widget.button.right_number_pad_fragment__eight"
+        android:text="@string/widget__button__right_number_pad_fragment__eight"
         style="@style/button__right_number_pad_fragment__digit"
         />
 
     <Button
-        android:text="@string/widget.button.right_number_pad_fragment__nine"
+        android:text="@string/widget__button__right_number_pad_fragment__nine"
         style="@style/button__right_number_pad_fragment__digit"
         />
 
     <Button
         android:layout_marginTop="@dimen/margin_top__right_number_pad_fragment__submit_button"
-        android:text="@string/widget.button.right_number_pad_fragment__submit"
+        android:text="@string/widget__button__right_number_pad_fragment__submit"
         style="@style/button__right_number_pad_fragment__submit"
         />
 

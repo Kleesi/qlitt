@@ -6,6 +6,10 @@
         <item name="android:textSize">@dimen/text_size__game_results_fragment__label</item>
     </style>
 
+    <style name="text_view__game_results_fragment_integer">
+        <item name="android:textSize">@dimen/text_size__game_results_fragment__integer</item>
+    </style>
+
     <style name="text_view__game_results_fragment_percentage">
         <item name="android:textColor">@color/gray</item>
         <item name="android:textSize">@dimen/text_size__game_results_fragment__percentage</item>
