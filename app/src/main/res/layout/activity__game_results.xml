@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,7 +11,7 @@
     android:paddingTop="@dimen/margin_vertical__global__activity"
     >
 
-    <TextView
+    <!--<TextView
         android:id="@+id/text_view__game_results__header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -28,7 +29,422 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/spacing_large__global"
         tools:layout="@layout/fragment__game_results"
-        />
+        />-->
+
+    <!--<android.support.v7.widget.GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        app:columnCount="3"
+        app:rowCount="2"
+        app:useDefaultMargins="false"
+        >
+
+        <RelativeLayout
+            android:id="@+id/layout__main_results_fragment__score_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_column="0"
+            app:layout_gravity="left"
+            app:layout_row="0"
+            app:layout_columnSpan="2"
+            >
+
+            <TextView
+                android:id="@+id/text_view__main_results_fragment__score_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="012345"
+                android:textColor="@color/blue"
+                android:textSize="42sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/text_view__main_results_fragment__score_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_view__main_results_fragment__score_value"
+                android:text="Score"
+                android:textAllCaps="true"
+                android:textColor="@color/gray"
+                android:textSize="26sp"
+                />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layout__main_results_fragment__accuracy_layout"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/spacing_large__global"
+            app:layout_column="0"
+            app:layout_gravity="left"
+            app:layout_row="1"
+
+            >
+
+            <TextView
+                android:id="@+id/text_view__main_results_fragment__accuracy_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="00%"
+                android:textColor="@color/gray"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/text_view__main_results_fragment__accuracy_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Accuracy"
+                android:textAllCaps="true"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/text_size_tiny__global"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout__main_results_fragment__average_response_time_layout"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_large__global"
+            android:orientation="vertical"
+            app:layout_column="2"
+            app:layout_gravity="left"
+            app:layout_row="1"
+            >
+
+            <TextView
+                android:id="@+id/text_view__main_results_fragment__average_response_time_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+
+                android:text="0000"
+                android:textColor="@color/gray"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/text_view__main_results_fragment__average_response_time_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Response Time"
+                android:textAllCaps="true"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/text_size_tiny__global"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout__main_results_fragment__answers_per_minute_layout"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/spacing_large__global"
+            app:layout_column="1"
+            app:layout_gravity="left"
+            app:layout_row="1"
+            >
+
+            <TextView
+                android:id="@+id/text_view__main_results_fragment__answers_per_minute_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="00.00"
+                android:textColor="@color/gray"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/text_view__main_results_fragment__answers_per_minute_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Items per Minute"
+                android:textAllCaps="true"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/text_size_tiny__global"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout__main_results_fragment__total_time_layout"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_column="2"
+            app:layout_gravity="left"
+            app:layout_row="0"
+            >
+
+            <TextView
+                android:id="@+id/text_view__main_results_fragment__total_time_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="00:00"
+                android:textColor="@color/gray"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/text_view__main_results_fragment__total_time_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Total Time"
+                android:textAllCaps="true"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/text_size_tiny__global"
+                />
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.GridLayout>-->
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:columnCount="3"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score"
+            android:textAllCaps="true"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/text_size_medium__global"
+            app:layout_columnSpan="3"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12800"
+            android:textAllCaps="true"
+            android:textColor="@color/blue"
+            android:textSize="32sp"
+            android:textStyle="bold"
+
+
+            />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/spacing_large__global"
+            android:layout_marginStart="@dimen/spacing_large__global"
+            app:layout_gravity="center_vertical"
+            app:srcCompat="@drawable/vector__global__simple_up_arrow"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/spacing_tiny__global"
+            android:layout_marginStart="@dimen/spacing_tiny__global"
+            android:text="9700"
+            android:textColor="@color/gray"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            app:layout_gravity="center_vertical|right"
+
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium__global"
+            android:text="Accuracy"
+            android:textAllCaps="true"
+            android:textColor="@color/gray"
+            android:textSize="14sp"
+            app:layout_columnSpan="3"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="87.30%"
+            android:textAllCaps="true"
+            android:textColor="@color/lightGray"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/spacing_large__global"
+            android:layout_marginStart="@dimen/spacing_large__global"
+            app:layout_gravity="center_vertical"
+            app:srcCompat="@drawable/vector__global__simple_rectangle"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/spacing_tiny__global"
+            android:layout_marginStart="@dimen/spacing_tiny__global"
+            android:text="89.12%"
+            android:textColor="@color/gray"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            app:layout_gravity="center_vertical|right"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium__global"
+            android:text="Response time"
+            android:textAllCaps="true"
+            android:textColor="@color/gray"
+            android:textSize="14sp"
+            app:layout_columnSpan="3"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20s 235ms"
+            android:textColor="@color/lightGray"
+            android:textSize="22sp"
+            android:textStyle="bold"
+
+            />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/spacing_large__global"
+            android:layout_marginStart="@dimen/spacing_large__global"
+            app:layout_gravity="center_vertical"
+            app:srcCompat="@drawable/vector__global__simple_down_arrow"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/spacing_tiny__global"
+            android:layout_marginStart="@dimen/spacing_tiny__global"
+            android:text="17s 890ms"
+            android:textColor="@color/gray"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            app:layout_gravity="center_vertical|right"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium__global"
+            android:text="Items per Minute"
+            android:textAllCaps="true"
+            android:textColor="@color/gray"
+            android:textSize="14sp"
+            app:layout_columnSpan="3"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="05.72"
+            android:textColor="@color/lightGray"
+            android:textSize="22sp"
+            android:textStyle="bold"
+
+            />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/spacing_large__global"
+            android:layout_marginStart="@dimen/spacing_large__global"
+            app:layout_gravity="center_vertical"
+            app:srcCompat="@drawable/vector__global__simple_down_arrow"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/spacing_tiny__global"
+            android:layout_marginStart="@dimen/spacing_tiny__global"
+            android:text="06.50"
+            android:textColor="@color/gray"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            app:layout_gravity="center_vertical|right"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium__global"
+            android:text="Total Items"
+            android:textAllCaps="true"
+            android:textColor="@color/gray"
+            android:textSize="14sp"
+            app:layout_columnSpan="3"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="124"
+            android:textColor="@color/lightGray"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/spacing_large__global"
+            android:layout_marginStart="@dimen/spacing_large__global"
+            app:layout_gravity="center_vertical"
+            app:srcCompat="@drawable/vector__global__simple_down_arrow"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/spacing_tiny__global"
+            android:layout_marginStart="@dimen/spacing_tiny__global"
+            android:text="134"
+            android:textColor="@color/gray"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            app:layout_gravity="center_vertical|right"
+
+            />
+
+
+    </android.support.v7.widget.GridLayout>
 
 
 </RelativeLayout>
